@@ -71,7 +71,7 @@ int main(int argc, char** argv)
     const char* dll = argv[1];
     const int   pID = atoi(argv[2]);
 
-    std::cout << "Injecting " << dll << "into process " << pID << ".\n";
+    std::cout << "Injecting " << dll << " into process " << pID << ".\n";
 
     inject_dll(dll, pID);
 
